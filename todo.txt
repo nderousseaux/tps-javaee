@@ -1,8 +1,4 @@
-1) Créer une servlet qui renvoie un message différent en fonction du type de requête reçu (GET, POST, PUT, DELETE). Tester les résultats à l'aide de Postman.
-
 2) Créer une servlet qui renvoie une liste d’objets à l’utilisateur au clic d’un bouton. Le résultat doit apparaître sous la forme d’une liste déroulante.
-
-3.1) Créer une servlet qui permet de simuler une connexion à un site (login/mot de passe). Si l’utilisateur entre les bons identifiants, afficher son nom. Dans le cas contraire, afficher un message d'erreur.
 
 3.2) Créer une servlet qui permet de simuler une connexion à un site (login/mot de passe). Si l’utilisateur entre les bons identifiants, le rediriger vers une nouvelle page affichant son nom. Dans le cas contraire, faire apparaître une fenêtre indiquant l'erreur de connexion.
 
