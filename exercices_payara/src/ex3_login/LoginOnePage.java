@@ -41,7 +41,7 @@ public class LoginOnePage extends HttpServlet {
 			writer.println("<label for='login'>Login :</label>");
 			writer.println("<input type='text' id='login' name='login'>");
 			writer.println("<label for='password'>Password :</label>");
-			writer.println("<input type='text' id='password' name='password'>");
+			writer.println("<input type='password' id='password' name='password'>");
 			writer.println("<button type='submit'>Go</button>");
 			writer.println("</form>");
 			writer.println("</body>");
@@ -59,8 +59,9 @@ public class LoginOnePage extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
 			String login = request.getParameter("login");
+			String password = request.getParameter("password");
 			String message;
-			if (login.equals("aaa")) {
+			if (login.equals("aaa") && password.equals("aaa")) {
 				message = "Hello " + login;
 			}
 			else {

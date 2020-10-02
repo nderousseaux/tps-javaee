@@ -7,16 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class getpost
+ * Servlet implementation class Getpost
  */
 @WebServlet("/getpost")
-public class getpost extends HttpServlet {
+public class Getpost extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public getpost() {
+    public Getpost() {
         super();
         // TODO Auto-generated constructor stub
     }
