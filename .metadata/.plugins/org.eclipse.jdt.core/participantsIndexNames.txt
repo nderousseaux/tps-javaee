@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\Valentin\Documents\Nicolas\LP1\lp1_metzger_derousseaux\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2982685910.index
+\exercices_payara\src
+C:\Users\Valentin\Documents\Nicolas\LP1\lp1_metzger_derousseaux\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2711632492.index
+\exercices_payara\src
