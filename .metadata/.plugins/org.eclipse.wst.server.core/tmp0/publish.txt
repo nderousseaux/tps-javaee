@@ -1,4 +1,0 @@
-#GlassFish 3
-#Fri Oct 09 11:54:02 CEST 2020
-org.eclipse.jst.jee.server\:exercices_payara=C\:\\Users\\Valentin\\Documents\\Nicolas\\LP1\\payara5\\glassfish\\domains\\domain1\\eclipseApps\\exercices_payara
-org.eclipse.jst.jee.server\:api_jee=C\:\\Users\\Valentin\\Documents\\Nicolas\\LP1\\payara5\\glassfish\\domains\\domain1\\eclipseApps\\api_jee

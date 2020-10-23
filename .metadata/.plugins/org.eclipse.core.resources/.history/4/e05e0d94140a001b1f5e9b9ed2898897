@@ -1,6 +1,0 @@
-package routes;
-
-@Path("/vols")
-public class RoutesVols {
-
-}

@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Valentin\Documents\Nicolas\LP1\lp1_metzger_derousseaux\.metadata\.plugins\org.eclipse.jdt.core
-638991739.index
-908475939.index
