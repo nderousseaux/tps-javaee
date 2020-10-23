@@ -1,19 +1,34 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name ="vol")
 public class Vols {
 	@Id
+	@Column(name="id")
 	private int id;
+	
+	@Column(name="numVol")
 	private String numVol;
+	
+	@Column(name="villeDepart")
 	private String villeDepart;
+	
+	@Column(name="villeArrivee")
 	private String villeArrivee;
+	
+	@Column(name="heureDepart")
 	private int heureDepart; // Format : 1230 = 12h30
 	
 	public Vols() { }
 	
-	public Vols(String numVol, String villeDepart, String villeArrivee, int heureDepart) {
-		this.numVol= numVol;
+	public Vols(int id, String numVol, String villeDepart, String villeArrivee, int heureDepart) {
+		this.id = id;
+		this.numVol = numVol;
 		this.villeDepart = villeDepart;
 		this.villeArrivee = villeArrivee;
 		this.heureDepart = heureDepart;

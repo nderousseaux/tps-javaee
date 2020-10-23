@@ -3,6 +3,7 @@ package routes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
 
 @Path("/vols")
 public class Vols {
@@ -14,7 +15,8 @@ public class Vols {
 	@GET
 	@Path("/volsJson")
 	@Produces("application/json")
-	public String getAllJson() {
-		return "volJson";
+	public Response getAllJson() {
+		controllers.Vols v = new controllers.Vols();
+		return v.getAllVol();
 	}
 }
