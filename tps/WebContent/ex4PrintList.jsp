@@ -9,6 +9,7 @@
 <title>PrintList</title>
 </head>
 <body>
+
 	<%="<ul>" %>
 	<%for(String s : (ArrayList<String>)request.getAttribute("list")){%>
 		<%="<li>"+ s +"</li>" %>
